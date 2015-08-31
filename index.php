@@ -9,10 +9,23 @@
 <body>
 <div class="wrapper">
 	<h1>Image gallery</h1>
-	<img id="image" class="image" src="img/img0.jpg">
 	<div class="navarrows">
-		<div class="arrow" id="left"><img id="left" src="img/arrowl.png"><p>Turn left</p></div>
-		<div class="arrow" id="right"><img id="right" src="img/arrowr.png"><p>Turn right</p></div>
+	<img id="gallery1" class="image" src="img/img0.jpg">
+		<p id="text1">1/12</p>
+		<div class="arrow" id="left1"><img id="left" src="img/arrowl.png"><p>Turn left</p></div>
+		<div class="arrow" id="right1"><img id="right" src="img/arrowr.png"><p>Turn right</p></div>
+	</div>
+	<div class="navarrows">
+	<img id="gallery2" class="image" src="img/img0.jpg">
+		<p id="text2">1/12</p>
+		<div class="arrow" id="left2"><img id="left" src="img/arrowl.png"><p>Turn left</p></div>
+		<div class="arrow" id="right2"><img id="right" src="img/arrowr.png"><p>Turn right</p></div>
+	</div>
+	<div class="navarrows">
+	<img id="gallery3" class="image" src="img/img0.jpg">
+		<p id="text3">1/12</p>
+		<div class="arrow" id="left3"><img id="left" src="img/arrowl.png"><p>Turn left</p></div>
+		<div class="arrow" id="right3"><img id="right" src="img/arrowr.png"><p>Turn right</p></div>
 	</div>
 </div>
 </body>
