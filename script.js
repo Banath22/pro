@@ -12,7 +12,7 @@ window.addEventListener("load", function(){
 		if (curr_img < 0) {
 			curr_img = 11;
 		};
-		img_.src="img/" + node[curr_img%4];
+		img_.src="img/" + node[curr_img%12];
 	});
 
 	right.addEventListener('click',function(){
@@ -20,5 +20,6 @@ window.addEventListener("load", function(){
 		if (curr_img > 11) {
 			curr_img = 0;
 		};
-		img_.src="img/" + node[curr_img%4];
+		img_.src="img/" + node[curr_img%12];
 	});
+});

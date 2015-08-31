@@ -25,13 +25,14 @@ body{
 	width: 50%;
 }
 
-.tourimages{
+.image{
 	width: 70%;
-	border: 5px dotted black;
 	border-radius: 20px;	
 }
 
 .wrapper .navarrows{
+	position: absolute;
+	margin-left: 17%;
 	bottom: 0px;
 }
 
