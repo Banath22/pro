@@ -9,10 +9,10 @@
 <body>
 <div class="wrapper">
 	<h1>Tablet Tour</h1>
-	<img id="tourimages" class="tourimages" src="tourimg/img0_0.jpg">
+	<img id="image" class="image" src="img/img0.jpg">
 	<div class="navarrows">
-		<div class="arrow" id="left"><img id="left" src="images/arrowl.png"><p>Turn left</p></div>
-		<div class="arrow" id="right"><img id="right" src="images/arrowr.png"><p>Turn right</p></div>
+		<div class="arrow" id="left"><img id="left" src="img/arrowl.png"><p>Turn left</p></div>
+		<div class="arrow" id="right"><img id="right" src="img/arrowr.png"><p>Turn right</p></div>
 	</div>
 </div>
 </body>

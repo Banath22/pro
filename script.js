@@ -1,5 +1,5 @@
 window.addEventListener("load", function(){
-	var img_ = document.getElementById("tourimages");
+	var img_ = document.getElementById("image");
 	var left = document.getElementById('left');
 	var right = document.getElementById('right');
 
@@ -20,5 +20,5 @@ window.addEventListener("load", function(){
 		if (curr_img > 11) {
 			curr_img = 0;
 		};
-		img_.src="tourimg/" + node[curr_img%4];
+		img_.src="img/" + node[curr_img%4];
 	});
