@@ -31,7 +31,10 @@ body{
 
 .wrapper .navarrows{
 	bottom: 0px;
-	height: 700px;
+}
+
+.images{
+	height: 500px;
 }
 
 a{
